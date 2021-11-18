@@ -1,0 +1,112 @@
+.container {
+    width: 100%;
+    height: auto;
+    min-height: 80%;
+    margin-bottom: 100px;
+}
+
+.inner {
+    width: 400px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header h1 {
+    font-size: 2.6rem;
+    text-align: center;
+}
+
+
+.main_log form {
+    width: 100%;
+}
+
+.txt_input {
+    width: 100%;
+    margin: 30px 0;
+    position: relative;
+    border-bottom: 2px solid rgb(180, 186, 192);
+}
+
+.txt_input input {
+    width: 100%;
+    height: 30px;
+    padding: 0 5px;
+    background: none;
+}
+
+.txt_input span::before {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #0E72AF;
+    top: 30px;
+    left: 0;
+    transition: .5s;
+}
+
+.txt_input input:focus ~ span::before,
+.txt_input input:valid ~ span::before {
+    width: 100%;
+}
+
+.err_msg {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: red;
+}
+
+.log_btn {
+    width: 100%;
+    height: 40px;
+    font-size: 1.6rem;
+    color: #fff;
+    background: #0E72AF;
+    border-radius: 10px;
+}
+
+
+.change_btn {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.6rem;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border: 1px solid rgb(180, 186, 192);
+    text-align: center;
+}
+
+.change_btn > span > span {
+    color: #0E72AF;
+}
+
+
+.social_btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social_btn button {
+    padding: 10px;
+    border: 1px solid rgb(180, 186, 192);
+    background: none;
+    border-radius: 10px;
+}
+
+
+/* rgb(180, 186, 192) */
+/* 0E72AF */
+
+@media screen and (max-width: 480px) {
+ .inner {
+     width: 100%;
+     padding: 0 20px;
+ }   
+}

@@ -1,0 +1,70 @@
+.club_list {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    height: auto;
+    min-height: 100%;
+}
+
+.title {
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.title h1 {
+    display: inline;
+}
+
+.list_inner {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gnb {
+    margin-top: 20px;
+}
+
+.gnb li {
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.6rem;
+    padding: 0 20px;
+}
+
+.gnb a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.gnb li:hover {
+    color: #fff;
+    background: rgb(180, 186, 192);
+}
+
+
+@media screen and (max-width: 762px) {
+    .list_inner {
+        width: 80%;
+        margin: 0 auto;
+        flex-direction: column;
+        padding-left: 50px;
+    }
+
+    .title {
+        width: 80%;
+        margin: 0 auto;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .gnb {
+        margin: 20px 0;
+    }
+
+    .gnb li {
+        width: 200px;
+    }
+}

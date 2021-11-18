@@ -1,0 +1,158 @@
+.main {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container {
+    margin-top: 20px;
+    height: auto;
+    min-height: 100%;
+}
+
+.main_div {
+    height: 70px;
+}
+
+.txt_input {
+    width: 100%;
+    height: 30px;
+    padding: 0 5px;
+    border-bottom: 2px solid rgb(180, 186, 192);
+}
+
+.btm_div {
+    width: 80px;
+    margin-top: 15px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post_btn {
+    font-size: 1.4rem;
+    background: none;
+    color: #0E72AF;
+}
+
+.image_btn {
+    font-size: 1.4rem;
+    color: rgb(180, 186, 192);
+}
+
+.change_none, .image_input {
+    display: none;
+}
+
+.inner {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.home_post {
+    border: 1px solid rgb(180, 186, 192);
+    margin-bottom: 20px;
+}
+
+.view_top {
+    font-size: 1.2rem;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    border-bottom: 1px solid rgb(180, 186, 192);
+    display: flex;
+    justify-content: space-between;
+}
+
+.view_btn {
+    width: 50px;   
+}
+
+.btn_div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn_div button {
+    line-height: 40px;
+    background: none;
+}
+
+.btn_div img {
+    width: 15px;
+    height: 15px;
+}
+
+.view_time {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.view_txt {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+
+.view_image img {
+    display: block;
+    width: 100%;
+}
+
+.view_change {
+    height: 60px;
+    margin: 20px 0;
+}
+
+.change_input {
+    width: 100%;
+    height: 30px;
+    padding: 0 5px;
+    background: none;
+    border-bottom: 2px solid rgb(180, 186, 192);
+}
+
+.change_div {
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete_btn {
+    font-size: 1.3rem;
+    background: none;
+    color: rgb(180, 186, 192);
+}
+
+.change_btn {
+    font-size: 1.3rem;
+    color: #0E72AF;
+}
+
+.af_image {
+    margin: 0 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.af_btn {
+    background: none;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+    .inner {
+        width: 100%;
+        padding: 0 20px;
+    }
+}

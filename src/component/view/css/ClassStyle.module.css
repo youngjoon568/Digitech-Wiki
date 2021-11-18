@@ -1,0 +1,50 @@
+.container {
+    padding-top: 150px;
+    height: auto;
+    min-height: 100%;
+}
+
+.inner {
+    width: 400px;
+    margin:  0 auto;
+}
+
+.inner h1 {
+    margin-bottom: 30px;
+}
+
+.gnb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gnb li a {
+    display: block;
+    height: 40px;
+    text-align: center;
+    padding: 0 20px;
+    line-height: 40px;
+    background: #0E72AF;
+    color: #fff;
+    font-size: 1.6rem;
+    border-radius: 10px;
+}
+
+.gnb li a:hover {
+    background: rgb(180, 186, 192);
+}
+
+@media screen and (max-width: 480px) {
+    .inner {
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    .gnb {
+        justify-content: space-evenly;
+    }
+
+    .gnb li a {
+        padding: 0 10px;
+    }
+}
